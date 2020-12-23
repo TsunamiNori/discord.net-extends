@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../../Discord.Net.targets" />
+  <PropertyGroup>
+    <AssemblyName>Discord.Net.WebSocket</AssemblyName>
+    <RootNamespace>Discord.WebSocket</RootNamespace>
+    <Description>A core Discord.Net library containing the WebSocket client and models.</Description>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Version>3.1.0</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Discord.Net.Core\Discord.Net.Core.csproj" />
+    <ProjectReference Include="..\Discord.Net.Rest\Discord.Net.Rest.csproj" />
+  </ItemGroup>
+</Project>
